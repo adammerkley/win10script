@@ -31,10 +31,10 @@ $tweaks = @(
 
 	### External Program Setup
 	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
-	"InstallAdobe",
-	"Install7Zip",
-	"InstallNotepadplusplus",
-	"InstallMediaPlayerClassic",
+	# "InstallAdobe",
+	# "Install7Zip",
+	# "InstallNotepadplusplus",
+	# "InstallMediaPlayerClassic",
 
 	### Windows Apps
 	"DebloatAll",
@@ -70,19 +70,19 @@ $tweaks = @(
 	"DisableNetDevicesAutoInst",  # "EnableNetDevicesAutoInst",
 	"DisableCtrldFolderAccess",	# "EnableCtrldFolderAccess",
 	# "DisableFirewall",            # "EnableFirewall",
-	"DisableDefender",            # "EnableDefender",
-	"DisableDefenderCloud",       # "EnableDefenderCloud",
-	"EnableF8BootMenu",             # "DisableF8BootMenu",
+	# "DisableDefender",            # "EnableDefender",
+	# "DisableDefenderCloud",       # "EnableDefenderCloud",
+	# "EnableF8BootMenu",             # "DisableF8BootMenu",
 	#"SetDEPOptOut",                 # "SetDEPOptIn",
 	# "EnableCIMemoryIntegrity",    # "DisableCIMemoryIntegrity",
 	#"DisableScriptHost",            # "EnableScriptHost",
 	#"EnableDotNetStrongCrypto",     # "DisableDotNetStrongCrypto",
-	"DisableMeltdownCompatFlag", # "EnableMeltdownCompatFlag"    
+	# "DisableMeltdownCompatFlag", # "EnableMeltdownCompatFlag"    
 
 	### Service Tweaks ###
-	"DisableUpdateMSRT",          # "EnableUpdateMSRT",
-	"DisableUpdateDriver",        # "EnableUpdateDriver",
-	"DisableUpdateRestart",         # "EnableUpdateRestart",
+	# "DisableUpdateMSRT",          # "EnableUpdateMSRT",
+	# "DisableUpdateDriver",        # "EnableUpdateDriver",
+	# "DisableUpdateRestart",         # "EnableUpdateRestart",
 	"DisableHomeGroups",          # "EnableHomeGroups",
 	"DisableSharedExperiences",     # "EnableSharedExperiences",
 	"DisableRemoteAssistance",      # "EnableRemoteAssistance",
@@ -93,7 +93,7 @@ $tweaks = @(
 	"DisableDefragmentation",     # "EnableDefragmentation",
 	"DisableSuperfetch",          # "EnableSuperfetch",
 	"DisableIndexing",            # "EnableIndexing",
-	"SetBIOSTimeUTC",             # "SetBIOSTimeLocal",
+	# "SetBIOSTimeUTC",             # "SetBIOSTimeLocal",
 	"DisableHibernation",		# "EnableHibernation",          # 
 	"EnableSleepButton",		# "DisableSleepButton",         
 	"DisableSleepTimeout",        # "EnableSleepTimeout",
@@ -108,7 +108,7 @@ $tweaks = @(
 	"DisableStickyKeys",            # "EnableStickyKeys",
 	"ShowTaskManagerDetails"        # "HideTaskManagerDetails",
 	"ShowFileOperationsDetails",    # "HideFileOperationsDetails",
-	"DisableFileDeleteConfirm",	# "EnableFileDeleteConfirm",    
+	# "DisableFileDeleteConfirm",	# "EnableFileDeleteConfirm",    
 	#"HideTaskbarSearch",
 	"ShowTaskbarSearchIcon",      # "ShowTaskbarSearchBox",
 	"HideTaskView",                 # "ShowTaskView",
@@ -151,14 +151,14 @@ $tweaks = @(
 	# "DisableThumbsDB",              # "EnableThumbsDB",
 
 	### Application Tweaks ###
-	"DisableOneDrive",              # "EnableOneDrive",
-	"UninstallOneDrive",            # "InstallOneDrive",
+	"EnableOneDrive",             # "DisableOneDrive", 
+	"InstallOneDrive",            # "UninstallOneDrive",
 	"UninstallMsftBloat",           # "InstallMsftBloat",
 	"UninstallThirdPartyBloat",     # "InstallThirdPartyBloat",
 	# "UninstallWindowsStore",      # "InstallWindowsStore",
 	# "DisableXboxFeatures",          # "EnableXboxFeatures",
 	"DisableAdobeFlash",            # "EnableAdobeFlash",
-	"InstallMediaPlayer", 		# "UninstallMediaPlayer",
+	"UninstallMediaPlayer", 		# "InstallMediaPlayer",
 	"UninstallInternetExplorer",  # "InstallInternetExplorer",
 	"UninstallWorkFolders",       # "InstallWorkFolders",
 	"InstallLinuxSubsystem",      # "UninstallLinuxSubsystem",
